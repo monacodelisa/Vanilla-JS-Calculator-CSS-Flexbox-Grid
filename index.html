@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+  <title>Vanilla JS Calculator | Esther White</title>
+</head>
+<body>
+	<section class="frame">
+		<section class="frame-top">
+			<div id="text"></div>
+		</section>
+		<main>
+			<div class="row-first">
+				<div class="button" onclick="handleClear('AC')"><h3>AC</h3></div>
+				<div class="button" onclick="handleClear('DEL')"><h3>DEL</h3></div>
+			</div>
+			<div class="row">
+				<div class="button" onclick="handleNumber('7')"><h3>7</h3></div>
+				<div class="button" onclick="handleNumber('8')"><h3>8</h3></div>
+				<div class="button" onclick="handleNumber('9')"><h3>9</h3></div>
+				<div class="button" onclick="handleOperation('x')"><h3>x</h3></div>
+				<div class="button" onclick="handleNumber('4')"><h3>4</h3></div>
+				<div class="button" onclick="handleNumber('5')"><h3>5</h3></div>
+				<div class="button" onclick="handleNumber('6')"><h3>6</h3></div>
+				<div class="button" onclick="handleOperation('/')"><h3>/</h3></div>
+				<div class="button" onclick="handleNumber('1')"><h3>1</h3></div>
+				<div class="button" onclick="handleNumber('2')"><h3>2</h3></div>
+				<div class="button" onclick="handleNumber('3')"><h3>3</h3></div>
+				<div class="button" onclick="handleOperation('-')"><h3>-</h3></div>
+				<div class="button" onclick="handleOperation('.')"><h3>.</h3></div>
+				<div class="button" onclick="handleNumber('0')"><h3>0</h3></div>
+				<div class="button" onclick="showResult()"><h3>=</h3></div>
+				<div class="button" onclick="handleOperation('+')"><h3>+</h3></div>
+			</div>
+    </main>	
+	</section>
+  <script src="app.js"></script>
+</body>
+</html>
