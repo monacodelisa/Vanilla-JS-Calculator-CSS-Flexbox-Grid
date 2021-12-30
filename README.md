@@ -3,3 +3,5 @@
 
 Pure vanilla JavaScript calculator with basic operations <br>
 I got a lot of help for this one cos it's not as simple as it may seem.
+
+Of course with a custom favicon :) 
